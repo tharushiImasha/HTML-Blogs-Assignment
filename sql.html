@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progbit</title>
+    <link rel="icon" href="assets/logo.png">
+    
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            background-color: #f0f0f0;
+        }
+    
+        .container ul li {
+            display: inline;
+            padding: 20px;
+        }
+    
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <article>
+            <header style="background-color: white;">
+            
+                <table style="margin-left: 60px; margin-right: 60px;">
+                    <tr>
+                        <th> <img src="assets/Progbit..png" alt="Logo" style="width: auto; padding: 20px;"> </th>
+                        <th style="width: 100%;" align="right">
+                            <nav class="container">
+                                <ul style="text-align: right;">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about-me.html">About</a></li>
+                                    <li><a href="index.html">Popular</a></li>
+                                    <li><a href="index.html">Blogs</a></li>
+                                    <li><a href="#Contact">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </th>
+                    </tr>
+                </table>
+            
+            </header>
+            
+            <br>
+
+            <div style="margin-left: 400px; margin-right: 400px;">
+                <h1>What is SQL</h1>
+
+                <p>
+                    Structured query language (SQL) is a programming language for storing and processing information in a relational
+                    database. A relational database stores information in tabular form, with rows and columns representing different data
+                    attributes and the various relationships between the data values. You can use SQL statements to store, update, remove,
+                    search, and retrieve information from the database. You can also use SQL to maintain and optimize database performance.
+                </p>
+
+                <h2 style="color: #1363DF;">Why is SQL important?</h2>
+
+                <p>
+                    Structured query language (SQL) is a popular query language that is frequently used in all types of applications. Data
+                    analysts and developers learn and use SQL because it integrates well with different programming languages. For example,
+                    they can embed SQL queries with the Java programming language to build high-performing data processing applications with
+                    major SQL database systems such as Oracle or MS SQL Server. SQL is also fairly easy to learn as it uses common English
+                    keywords in its statements
+                    
+                    <h4>History of SQL</h4>
+
+                    SQL was invented in the 1970s based on the relational data model. It was initially known as the structured English query
+                    language (SEQUEL). The term was later shortened to SQL. Oracle, formerly known as Relational Software, became the first
+                    vendor to offer a commercial SQL relational database management system.
+                </p>
+
+                <br>
+
+                <h2 style="color: #1363DF;">What are SQL commands?</h2>
+
+                <p>
+                    Structured query language (SQL) commands are specific keywords or SQL statements that developers use to manipulate the
+                    data stored in a relational database. You can categorize SQL commands as follows.
+                </p>
+
+                <ul>
+                    <li> <b>Data definition language</b> </li>
+                    <dl>
+                        <dd>Data definition language (DDL) refers to SQL commands that design the database structure. Database engineers use DDL to
+                        create and modify database objects based on the business requirements. For example, the database engineer uses the
+                        CREATE command to create database objects such as tables, views, and indexes.</dd>
+                    </dl>
+                
+                    <li> <b>Data query language</b> </li>
+                    <dl>
+                        <dd>Data query language (DQL) consists of instructions for retrieving data stored in relational databases. Software
+                        applications use the SELECT command to filter and return specific results from a SQL table.</dd>
+                    </dl>
+                
+                    <li> <b>Data manipulation language</b> </li>
+                    <dl>
+                        <dd>Data manipulation language (DML) statements write new information or modify existing records in a relational database.
+                        For example, an application uses the INSERT command to store a new record in the database.</dd>
+                    </dl>
+                
+                    <li> <b>Data control language</b> </li>
+                    <dl>
+                        <dd>Database administrators use data control language (DCL) to manage or authorize database access for other users. For
+                        example, they can use the GRANT command to permit certain applications to manipulate one or more tables.</dd>
+                    </dl>
+
+                    <li> <b>Transaction control language</b> </li>
+                    <dl>
+                        <dd>The relational engine uses transaction control language (TCL) to automatically make database changes. For example, the
+                        database uses the ROLLBACK command to undo an erroneous transaction.</dd>
+                    </dl>
+                
+                </ul>
+
+                <br>
+                <center>
+                    <img src="assets/SqlImg.jpg" alt="SqlImg" width="500px" height="400px">
+                </center>
+                <br>
+
+                <h2>What is MySQL</h2>
+                
+                <p>
+                    MySQL is an open-source relational database management system offered by Oracle. Developers can download and use MySQL
+                    without paying a licensing fee. They can install MySQL on different operating systems or cloud servers. MySQL is a
+                    popular database system for web applications.
+                </p>
+
+                <br>
+
+                <h2 style="color: #1363DF;">SQL vs MySQL</h2>
+
+
+                <table style="width: 100%;  border: 2px solid black;  border-collapse: collapse;">
+                    <tr style="border: 2px solid black;">
+                        <th style="padding: 15px; border: 2px solid black; background-color: #81cdff;">SQL</th>
+                        <th style="padding: 15px; border: 2px solid black; background-color: #81cdff;">MySQL</th>
+                    </tr>
+                
+                    <tr style="border: 2px solid black;">
+                        <td style="border: 2px solid black;">SQL is a query programming language that manages RDBMS</td>
+                        <td style="border: 2px solid black;">MySQL is a relational database management system that uses SQL.</td>
+                    </tr>
+                
+                    <tr style="border: 2px solid black;">
+                        <td style="border: 2px solid black;">SQL is primarily used to query and operate database systems.</td>
+                        <td style="border: 2px solid black;">MySQL allows you to handle, store, modify and delete data and store data in an organized way.</td>
+                    </tr>
+                
+                    <tr style="border: 2px solid black;">
+                        <td style="border: 2px solid black;">SQL does not support any connector.</td>
+                        <td style="border: 2px solid black;">MySQL comes with an in-built tool known as MySQL Workbench that facilitates creating, designing, and building databases.</td>
+                    </tr>
+
+                    <tr style="border: 2px solid black;">
+                        <td style="border: 2px solid black;">SQL follows a simple standard format without many or regular updates.</td>
+                        <td style="border: 2px solid black;">MySQL has numerous variants and gets frequent updates</td>
+                    </tr>
+
+                    <tr style="border: 2px solid black;">
+                        <td style="border: 2px solid black;">SQL supports only a single storage engine.</td>
+                        <td style="border: 2px solid black;">MySQL offers support for multiple storage engines along with plug-in storage, making it more flexible.</td>
+                    </tr>
+                
+                </table>
+
+            </div>
+
+            <br><br><br><br>
+            
+            <footer style="background-color: #06283D;" id="Contact">
+                <div style="margin-left: 200px; margin-right: 200px; ">
+            
+                    <br>
+            
+                    <center>
+                        <h2 style="display: block; font-size: 35px; color: white;"> Contact Us </h2>
+                        <h4 style="color: rgb(145, 145, 145);"> Connect with us! Reach out for inquiries, collaboration, or support.
+                            <br> Get in Touch
+                        </h4>
+                    </center>
+            
+                    <br> <br>
+            
+                    <table>
+                        <tr style="padding-bottom: 30px;">
+                            <td style="width: 100px;"> <img src="assets/Location.png" alt="Location" width="70px"> </td>
+                            <td style="width: 300px;"> <b style="color: #1363DF;">Address </b> <br>
+                                <p style="color: white;"> Galle, Sri Lanka </p>
+                            </td>
+            
+                            <td rowspan="3" style="width: 1100px; color: white" align="right">
+            
+                                <form action="">
+                                    <label for="fullName"> Full Name : </label>
+                                    <input size="50px" type="text" name="fullName" required>
+            
+                                    <br> <br>
+            
+                                    <label for="Email"> Email : </label>
+                                    <input size="54px" type="text" name="email" required>
+            
+                                    <br> <br>
+            
+                                    <textarea name="message" id="textarea" cols="61" rows="2"
+                                        placeholder="Type your message here"></textarea>
+            
+                                    <br> <br> <br>
+            
+                                    <input type="submit" value="Submit"
+                                        style="background-color: #1363DF; color: white; width: 100px; height: 30px;">
+            
+                                </form>
+                            </td>
+                        </tr>
+            
+                        <tr style="padding-bottom: 30px;">
+                            <td> <img src="assets/Phone.png" alt="Phone" width="70px"> </td>
+                            <td><b style="color: #1363DF;">Phone </b> <br>
+                                <p style="color: white;"> +94 77 82 49 127 </p>
+                            </td>
+                        </tr>
+            
+                        <tr style="padding-bottom: 30px;">
+                            <td> <img src="assets/Email.png" alt="Email" width="70px"> </td>
+                            <td><b style="color: #1363DF;">Email </b> <br>
+                                <p style="color: white;"> tharushi.byb@gmail.com </p>
+                            </td>
+                        </tr>
+            
+                    </table>
+                </div>
+            
+                <br>
+            
+                <p style="text-align: center; color: white;">
+                    &copy; All Rights Reserved
+                </p>
+            
+                <br>
+            
+            </footer>
+
+        </article>
+    </div>
+</body>
+</html>

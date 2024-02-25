@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progbit</title>
+    <link rel="icon" href="assets/logo.png">
+    
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            background-color: #f0f0f0;
+        }
+    
+        .container ul li {
+            display: inline;
+            padding: 20px;
+        }
+    
+        a {
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        <article>
+            <header style="background-color: white;">
+            
+                <table style="margin-left: 60px; margin-right: 60px;">
+                    <tr>
+                        <th> <img src="assets/Progbit..png" alt="Logo" style="width: auto; padding: 20px;"> </th>
+                        <th style="width: 100%;" align="right">
+                            <nav class="container">
+                                <ul style="text-align: right;">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about-me.html">About</a></li>
+                                    <li><a href="index.html">Popular</a></li>
+                                    <li><a href="index.html">Blogs</a></li>
+                                    <li><a href="#Contact">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </th>
+                    </tr>
+                </table>
+            
+            </header>
+            
+            <br>
+
+            <div style="margin-left: 400px; margin-right: 400px;">
+                <h1>What is OOP</h1>
+
+                <p>
+                    Object Oriented Programming (OOP) is a programming paradigm that focuses on the use of objects to represent and
+                    manipulate data. In OOP, data is encapsulated within objects, and objects are defined by their properties (attributes)
+                    and behaviors (methods). OOP provides several key concepts that enable developers to write modular, reusable, and
+                    maintainable code.
+                </p>
+
+                <br>
+
+                <center>
+                    <img src="assets/OopConcepts.png" alt="OopConcepts" style="width: 600px;">
+                </center>
+
+                <br>
+
+                <h2 style="color: #1363DF;">Definition of OOP Concepts in Java</h2>
+
+                <p>
+                    The main ideas behind Java’s Object-Oriented Programming, OOP concepts include <span style="color: #2157a7; font-size: 18px;"> <b>abstraction, encapsulation, inheritance
+                    and polymorphism</b> </span>. Basically, Java OOP concepts let us create working methods and variables, then re-use all or part of
+                    them without compromising security. Grasping OOP concepts is key to understanding how Java works. <br> <br>
+                    
+                    Java defines OOP concepts as follows: <br>
+                </p>
+                <ul>
+                    <li> <b>Abstraction</b> </li>
+                    <dl>
+                        <dd>Using simple things to represent complexity. We all know how to turn the TV on, but we don’t need to know how it works
+                        in order to enjoy it. In Java, abstraction means simple things like <b style="font-size: 18px;">objects, classes</b> and <b style="font-size: 18px;">variables</b> represent more
+                        complex underlying code and data. This is important because it lets you avoid repeating the same work multiple times.</dd>
+                    </dl>
+
+                    <li> <b>Encapsulation</b> </li>
+                    <dl>
+                        <dd>The practice of keeping fields within a class private, then providing access to those fields via public methods.
+                        Encapsulation is a protective barrier that keeps the data and code safe within the class itself. We can then reuse
+                        objects like code components or variables without allowing open access to the data system-wide.</dd>
+                    </dl>
+
+                    <li> <b>Inheritance</b> </li>
+                    <dl>
+                        <dd>A special feature of Object-Oriented Programming in Java, Inheritance lets programmers create new classes that share
+                        some of the attributes of existing classes. Using Inheritance lets us build on previous work without reinventing the
+                        wheel.</dd>
+                    </dl>
+
+                    <li> <b>Polymorphism</b> </li>
+                    <dl>
+                        <dd>Allows programmers to use the same word in Java to mean different things in different contexts. One form of polymorphism
+                        is <b style="font-size: 18px;">method overloading</b>. That’s when the code itself implies different meanings. The other form is <b style="font-size: 18px;">method overriding</b>.
+                        That’s when the values of the supplied variables imply different meanings. Let’s delve a little further.</dd>
+                    </dl>
+
+                </ul>
+
+                <h3><u>How Abstraction Works</u></h3>
+
+                <p>
+                    Abstraction lets programmers create useful and reusable tools. It enables programmers to create complex systems by
+                    breaking them down into smaller, more manageable components. For example, a programmer can create several different
+                    types of objects, which can be variables, functions or data structures. Programmers can also create different classes of
+                    objects as ways to define the objects. <br> <br>
+                    
+                    For instance, a class of variable might be an address. The class might specify that each address object shall have a
+                    name, street, city and zip code. The objects, in this case, might be employee addresses, customer addresses or supplier
+                    addresses. In addition, abstraction provides a mechanism for hiding the implementation details of a class or method from
+                    the outside world and providing a simplified interface for clients to interact with. In Java, you can achieve
+                    abstraction through two main mechanisms: abstract classes and interfaces. <br> <br>
+                </p>
+
+                <ol>
+                    <li><b>Abstract classes</b></li>
+                    <dl>
+                        <dd>An abstract class is a class that you can’t instantiate and can only extend by subclasses. Abstract classes can have
+                        both abstract and non-abstract methods. Abstract methods do not have a body and you must implement them by any subclass
+                        that extends the abstract class. Non-abstract methods have a body and you can directly call them by the subclass.</dd>
+                    </dl>
+
+                    <li><b>Interfaces</b></li>
+                    <dl>
+                        <dd>An interface is a collection of methods. You can use it to define a set of behaviors that a class should implement. A
+                        class can implement multiple interfaces, and all the methods defined in an interface must be implemented by any class
+                        that implements it.</dd>
+                    </dl>
+                </ol>
+
+                <h3> <u>How Encapsulation Works</u></h3>
+
+                <p>
+                    Encapsulation lets us reuse functionality without jeopardizing security. It’s a powerful, time-saving OOP concept in
+                    Java. For example, we may create a piece of code that calls specific data from a database. It may be useful to reuse
+                    that code with other databases or processes. Encapsulation lets us do that while keeping our original data private. It
+                    also lets us alter our original code without breaking it for others who have adopted it in the meantime. <br> <br>
+                    
+                    Encapsulation provides several benefits, including:
+
+                    <ol>
+                        <li><b>Data hiding</b></li>
+                        <dl>
+                            <dd>By hiding the implementation details of a class, encapsulation protects the data from unauthorized access and
+                            manipulation.</dd>
+                        </dl>
+                    
+                        <li><b>Modularity</b></li>
+                        <dl>
+                            <dd>Encapsulation helps to break down complex systems into smaller, more manageable components, making the codebase more
+                            modular and easier to maintain.</dd>
+                        </dl>
+
+                        <li><b>Flexibility</b></li>
+                        <dl>
+                            <dd>By providing a controlled interface for interacting with a class, encapsulation allows for changes to the internal
+                            implementation without affecting the external interface.</dd>
+                        </dl>
+                    </ol>
+                </p>
+
+                <h3><u>How Inheritance Works</u></h3>
+
+                <p>
+                    Inheritance is another labor-saving Java OOP concept that works by letting a new class adopt the properties of another.
+                    We call the inheriting class a subclass or a child class. The original class is often called the parent or the
+                    superclass. We use the keyword extends to define a new class that inherits properties from an old class.
+                    
+                    The subclass inherits all the public and protected variables and methods of the superclass, and it can also define its
+                    own variables and methods. This makes it possible to create a hierarchy of classes, where each subclass inherits from
+                    its superclass and adds its own unique features.
+                </p>
+
+                <h4>Benifits of Inheritance</h4>
+
+                <ol>
+                    <li><b>Reusability</b></li>
+                    <dl>
+                        <dd>By inheriting from a superclass, a subclass can reuse the code and functionality already defined in the superclass,
+                        making it easier to write and maintain code.</dd>
+                    </dl>
+                
+                    <li><b>Polymorphism</b></li>
+                    <dl>
+                        <dd>Inheritance allows for polymorphism, where objects of different subclasses can be treated as objects of the same
+                        superclass, making it easier to write generic code.</dd>
+                    </dl>
+                
+                    <li><b>Flexibility</b></li>
+                    <dl>
+                        <dd>Inheritance provides a way to add new features to an existing class hierarchy without modifying the existing code.</dd>
+                    </dl>
+                </ol>
+
+                <h3><u>How Polymorphism Works</u></h3>
+
+                <p>
+                    Polymorphism in Java works by using a reference to a parent class to affect an object in the child class. We might
+                    create a class called “horse” by extending the “animal” class. That class might also implement the “professional racing”
+                    class. The “horse” class is “polymorphic,” since it inherits attributes of both the “animal” and “professional racing”
+                    class. <br> <br>
+                    
+                    Two more examples of polymorphism in Java are method overriding and method overloading. <br> <br>
+                    
+                    In <b style="font-size: 18px;">method overriding</b>, the child class can use the OOP polymorphism concept to override a method of its parent class.
+                    That allows a programmer to use one method in different ways depending on whether it’s invoked by an object of the
+                    parent class or an object of the child class. <br> <br>
+                    
+                    In <b style="font-size: 18px;">method overloading</b>, a single method may perform different functions depending on the context in which it’s called.
+                    This means a single method name might work in different ways depending on what arguments are passed to it. <br> <br>
+                </p>
+
+                <h4>Benifits of Polymorphism</h4>
+                
+                <ol>
+                    <li><b>Flexibility</b></li>
+                    <dl>
+                        <dd>Polymorphism allows for more flexible and adaptable code by enabling objects of different classes to be treated as if
+                        they are of the same class.</dd>
+                    </dl>
+                
+                    <li><b>Code reuse</b></li>
+                    <dl>
+                        <dd>Polymorphism promotes code reuse by allowing classes to inherit functionality from other classes and to share common
+                        methods and properties.</dd>
+                    </dl>
+                
+                    <li><b>Simplification</b></li>
+                    <dl>
+                        <dd>Polymorphism simplifies code by enabling the use of generic code that can handle different types of objects.</dd>
+                    </dl>
+                </ol>
+
+            </div>
+
+            <br><br><br><br>
+            
+            <footer style="background-color: #06283D;" id="Contact">
+                <div style="margin-left: 200px; margin-right: 200px; ">
+            
+                    <br>
+            
+                    <center>
+                        <h2 style="display: block; font-size: 35px; color: white;"> Contact Us </h2>
+                        <h4 style="color: rgb(145, 145, 145);"> Connect with us! Reach out for inquiries, collaboration, or support.
+                            <br> Get in Touch
+                        </h4>
+                    </center>
+            
+                    <br> <br>
+            
+                    <table>
+                        <tr style="padding-bottom: 30px;">
+                            <td style="width: 100px;"> <img src="assets/Location.png" alt="Location" width="70px"> </td>
+                            <td style="width: 300px;"> <b style="color: #1363DF;">Address </b> <br>
+                                <p style="color: white;"> Galle, Sri Lanka </p>
+                            </td>
+            
+                            <td rowspan="3" style="width: 1100px; color: white" align="right">
+            
+                                <form action="">
+                                    <label for="fullName"> Full Name : </label>
+                                    <input size="50px" type="text" name="fullName" required>
+            
+                                    <br> <br>
+            
+                                    <label for="Email"> Email : </label>
+                                    <input size="54px" type="text" name="email" required>
+            
+                                    <br> <br>
+            
+                                    <textarea name="message" id="textarea" cols="61" rows="2"
+                                        placeholder="Type your message here"></textarea>
+            
+                                    <br> <br> <br>
+            
+                                    <input type="submit" value="Submit"
+                                        style="background-color: #1363DF; color: white; width: 100px; height: 30px;">
+            
+                                </form>
+                            </td>
+                        </tr>
+            
+                        <tr style="padding-bottom: 30px;">
+                            <td> <img src="assets/Phone.png" alt="Phone" width="70px"> </td>
+                            <td><b style="color: #1363DF;">Phone </b> <br>
+                                <p style="color: white;"> +94 77 82 49 127 </p>
+                            </td>
+                        </tr>
+            
+                        <tr style="padding-bottom: 30px;">
+                            <td> <img src="assets/Email.png" alt="Email" width="70px"> </td>
+                            <td><b style="color: #1363DF;">Email </b> <br>
+                                <p style="color: white;"> tharushi.byb@gmail.com </p>
+                            </td>
+                        </tr>
+            
+                    </table>
+                </div>
+            
+                <br>
+            
+                <p style="text-align: center; color: white;">
+                    &copy; All Rights Reserved
+                </p>
+            
+                <br>
+            
+            </footer>
+
+        </article>
+    </div>
+</body>
+</html>
